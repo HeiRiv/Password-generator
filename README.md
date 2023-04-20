@@ -15,7 +15,8 @@ Made the elements on the main bar interactive so when clicking on them will take
 
 ## Final Product
 😄 Please see below a quick view of my website 😄
-
+ 
+<img width="1440" alt="Screen Shot 2023-04-20 at 5 20 12 PM" src="https://user-images.githubusercontent.com/128196586/233490237-a4f70dbf-2ddf-452a-a716-abe9d26380ca.png">
 
 This is the link for the webpage to view on more detail: 
 
