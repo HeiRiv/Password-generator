@@ -92,7 +92,11 @@ function generatePassword() {
   var charactersAmount = prompt(
     "How many characters would you like your password to contain?"
   );
-  console.log(charactersAmount);
+
+  if (charactersAmount < 8 || charactersAmount > 128) {
+    alert("Please select a character count between 8 and 128");
+    return;
+  }
 
   var password = "";
 
@@ -103,6 +107,7 @@ function generatePassword() {
 
   if (specialCharacters) {
     password += getRandomSpecialCharacter();
+    charactersAmount--;
   }
 
   var numericCharacters = confirm(
@@ -112,6 +117,7 @@ function generatePassword() {
 
   if (numericCharacters) {
     password += getRandomDigit();
+    charactersAmount--;
   }
 
   var lowerCaseChar = confirm(
@@ -121,6 +127,7 @@ function generatePassword() {
 
   if (lowerCaseChar) {
     password += getRandomLower();
+    charactersAmount--;
   }
 
   var upperCaseChar = confirm(
@@ -130,6 +137,7 @@ function generatePassword() {
 
   if (upperCaseChar) {
     password += getRandomUpper();
+    charactersAmount--;
   }
 
   // Based on the user's answers to the questions
@@ -233,13 +241,6 @@ function generatePassword() {
   for (let i = 0; i < charactersAmount; i++) {
     password += getRandomValueFromArray(allPossibleOptions);
   }
-
-  // Loop over the charactersAmount variable
-  // For each loop, pick a random character from the big options array
-
-  // for (let i = 0; i < charactersAmount; i++) {
-  //   password += getRandomValueFromArray();
-  // }
 
   return password;
 }
