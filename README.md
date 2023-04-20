@@ -14,7 +14,8 @@ A password will be generated and it will match the selected criteria
 ## Final Product
 😄 Please see below a quick view of my password generator 😄
  
-<img width="1440" alt="Screen Shot 2023-04-20 at 5 38 09 PM" src="https://user-images.githubusercontent.com/128196586/233493327-9d367387-3ff3-4230-b68e-a2f8adf9c8ae.png">
+<img width="1440" alt="Screen Shot 2023-04-20 at 5 47 10 PM" src="https://user-images.githubusercontent.com/128196586/233494687-e9da668f-8d90-4512-ba84-dc617094a72e.png">
+
 
 This is the link for the webpage to view on more detail: 
 
