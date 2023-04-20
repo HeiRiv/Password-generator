@@ -5,11 +5,11 @@ On the third project, we learn how to fix the JavaScript in order to get a rando
 
 ## Achievements
 
--Clicking sucsesfully on "Generate password" and got the first question to be answered
--All the prompts for password criteria showed on the screen
--Let the user decide the length of the password (at least 8 characters and no more than 128 characters)
--Allowed the user to select the criteria to include in the password
--A password will be generated and it will match the selected criteria
+*Clicking sucsesfully on "Generate password" and got the first question to be answered
+*All the prompts for password criteria showed on the screen
+*Let the user decide the length of the password (at least 8 characters and no more than 128 characters)
+*Allowed the user to select the criteria to include in the password
+*A password will be generated and it will match the selected criteria
 
 ## Final Product
 😄 Please see below a quick view of my password generator 😄
