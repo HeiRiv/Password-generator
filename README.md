@@ -4,14 +4,12 @@
 On the third project, we learn how to fix the JavaScript in order to get a random password in our password generator following some specific criteria, the benefits of using a random password generator are obvious: A strong password generated online can help you protect the security of your personal and professional email accounts, social network accounts, WiFi encryption, banking and financial and savings accounts.
 
 ## Achievements
-Started with the construction of the website from scratch
-Added my personal style and pictures following my design
-Added the paragraphs and titles/subtitles for each section
-Divided the html file following the correct structure
-Orginized the div's, id's and classes on the CSS to give my portfolio a good structure
-Setted up the buttons with background images and make them work properly when clicking them
-placed my email with a link so when clicking on it you will be redirected to a ''new email'' so you can send me an email.
-Made the elements on the main bar interactive so when clicking on them will take you directly to the topic.
+
+Clicking sucsesfully on "Generate password" and got the first question to be answered
+All the prompts for password criteria showed on the screen
+Let the user decide the length of the password (at least 8 characters and no more than 128 characters)
+Allowed the user to select the criteria to include in the password
+A password will be generated and it will match the selected criteria
 
 ## Final Product
 😄 Please see below a quick view of my website 😄
